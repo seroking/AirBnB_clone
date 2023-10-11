@@ -1,0 +1,10 @@
+{
+    "FileStorage.6d61c4d0-a14d-469b-bdd6-5b602c6cf52b": {
+        "id": "6d61c4d0-a14d-469b-bdd6-5b602c6cf52b",
+        "created_at": "2023-10-11T20:41:04.831622",
+        "updated_at": "2023-10-11T20:41:04.831628",
+        "name": "My_First_Model",
+        "my_number": 89,
+        "__clas__": "BaseModel"
+    }
+}
