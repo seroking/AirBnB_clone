@@ -49,4 +49,3 @@ class BaseModel:
             "updated_at": self.updated_at.isoformat()
         }
         return obj_dic
-
