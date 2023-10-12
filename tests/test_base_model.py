@@ -7,7 +7,7 @@ from time import sleep
 from models.base_model import BaseModel
 
 class TestBaseModel(unittest.TestCase):
-    """test methods of BaseModel class"""
+
     def test_id_(self):
         # Test id is an str
         self.assertEqual(str, type(BaseModel().id))
