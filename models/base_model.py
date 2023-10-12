@@ -3,7 +3,6 @@
 import models
 import uuid
 from datetime import datetime
-import models
 
 
 class BaseModel:
@@ -50,4 +49,3 @@ class BaseModel:
             "updated_at": self.updated_at.isoformat()
         }
         return obj_dic
-
