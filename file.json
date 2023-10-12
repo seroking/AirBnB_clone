@@ -46,5 +46,23 @@
         "name": "My_First_Model",
         "my_number": 13,
         "__class__": "BaseModel"
+    },
+    "BaseModel.49a26448-dacd-4fe4-92ec-20437e717a9e": {
+        "id": "49a26448-dacd-4fe4-92ec-20437e717a9e",
+        "created_at": "2023-10-12T19:28:27.232201",
+        "updated_at": "2023-10-12T19:28:27.232205",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.1e4f23f3-e1e8-4634-b70e-aad794a5c97d": {
+        "id": "1e4f23f3-e1e8-4634-b70e-aad794a5c97d",
+        "created_at": "2023-10-12T19:28:27.232276",
+        "updated_at": "2023-10-12T19:28:27.232277",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.4f0c64be-456d-4adc-889e-67dcdc0fece2": {
+        "id": "4f0c64be-456d-4adc-889e-67dcdc0fece2",
+        "created_at": "2023-10-12T19:28:27.232435",
+        "updated_at": "2023-10-12T19:28:27.232447",
+        "__class__": "BaseModel"
     }
 }
