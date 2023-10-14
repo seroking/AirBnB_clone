@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""test file storage"""
 
 import os
 import unittest
