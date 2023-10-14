@@ -5,7 +5,6 @@ import os
 import unittest
 from datetime import datetime
 import models
-from time import sleep
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
 import json
@@ -73,6 +72,23 @@ class test_file_storage_class(unittest.TestCase):
         relo.reload()
         self.assertIn(str('BaseModel'+'.'+str(model1.id)), relo.all())
         self.assertIn(str('BaseModel'+'.'+str(model2.id)), relo.all())
+
+    def test_edge_cases(self):
+        # test all with none
+        with self.assertRaises(TypeError):
+            models.storage.all(None)
+
+        # test reload with args
+        with self.assertRaises(TypeError):
+            models.storage.reload(None)
+
+        # test new with wrong args
+        with self.assertRaises(TypeError):
+            models.storage.new(BaseModel(), 1)
+
+        # test all with args
+        with self.assertRaises(TypeError):
+            models.storage.all(None)
 
 
 if __name__ == "__main__":
