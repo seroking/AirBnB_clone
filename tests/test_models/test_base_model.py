@@ -6,6 +6,7 @@ import models
 from time import sleep
 from models.base_model import BaseModel
 
+
 class TestBaseModel(unittest.TestCase):
     """test methods of BaseModel class"""
     def test_id_(self):
@@ -64,17 +65,20 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn('attr2', model_dict)
         self.assertEqual(model_dict['__class__'], 'BaseModel')
 
-
     def test_init_with_arguments(self):
         # Test the __init__ method with keyword arguments
         time_format = "%Y-%m-%dT%H:%M:%S.%f"
 
         created_at = "2020-06-29T21:30:00.000000"
         updated_at = "2020-06-29T21:30:00.000000"
-        model = BaseModel(id='123', created_at=created_at, updated_at=updated_at)
+        model = BaseModel(id='123',
+                          created_at=created_at, updated_at=updated_at)
         self.assertEqual(model.id, '123')
-        self.assertEqual(model.created_at, datetime.strptime(created_at, time_format))
-        self.assertEqual(model.updated_at, datetime.strptime(updated_at, time_format))
+        self.assertEqual(model.created_at,
+                         datetime.strptime(created_at, time_format))
+        self.assertEqual(model.updated_at,
+                         datetime.strptime(updated_at, time_format))
+
 
 if __name__ == '__main__':
     unittest.main()

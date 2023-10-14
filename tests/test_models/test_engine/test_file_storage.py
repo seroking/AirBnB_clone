@@ -34,8 +34,6 @@ class test_file_storage_class(unittest.TestCase):
             pass
         FileStorage._FileStorage__objects = {}
 
-
-
     def test_all_method(self):
         # Test if all method returs a dic
         store = FileStorage()
