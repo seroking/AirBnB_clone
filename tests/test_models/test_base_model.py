@@ -16,7 +16,7 @@ class TestBaseModel(unittest.TestCase):
         self.assertEqual(str, type(BaseModel().id))
 
     def test_two_models_unique_ids(self):
-		# Test unique
+        # Test unique
         model1 = BaseModel()
         model2 = BaseModel()
         self.assertNotEqual(model1.id, model2.id)
