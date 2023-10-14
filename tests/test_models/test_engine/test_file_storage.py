@@ -91,5 +91,36 @@ class test_file_storage_class(unittest.TestCase):
             models.storage.all(None)
 
 
+class test_file_storage_class(unittest.TestCase):
+    """test methods of storage class"""
+
+    @classmethod
+    def setUp(self):
+        """Run before each individual test method in the test class. """
+        try:
+            os.rename("file.json", "tmp")
+        except IOError:
+            pass
+
+    @classmethod
+    def tearDown(self):
+        """Run afer each individual test method in the test class. """
+        try:
+            os.remove("file.json")
+        except IOError:
+            pass
+        try:
+            os.rename("tmp", "file.json")
+        except IOError:
+            pass
+        FileStorage._FileStorage__objects = {}
+
+    def test_storage_reload(self):
+        # Test reload storage
+        base_model = BaseModel()
+        self.assertIn("BaseModel." + base_model.id,
+                      models.storage.all().keys())
+
+
 if __name__ == "__main__":
     unittest.main()
