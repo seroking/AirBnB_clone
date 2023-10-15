@@ -157,23 +157,17 @@ class HBNBCommand(cmd.Cmd):
                 the_id = (cmd_and_par[1][:-1])[1:-1]
                 line = "{} {}".format(the_class, the_id)
                 return HBNBCommand.do_destroy(self, line)
-            """
+
             if command == "update":
                 print(cmd_and_par[1])
                 id_atr_val = cmd_and_par[1].split(", ")
-
                 the_id = (id_atr_val[0])[1:-1]
-                print(the_id)
                 the_atr = (id_atr_val[1])[1:-1]
-                print(the_atr)
-                the_val = (id_atr_val[2])[1:-2]
-                print(the_val)
-
+                the_val = (id_atr_val[2])[0:-1]
                 line = "{} {} {} {}".format(the_class,
-                the_id, the_atr, the_atr)
-
-                print(line)
-                return HBNBCommand.do_update(self, line)"""
+                                            the_id, the_atr,
+                                            the_val)
+                return HBNBCommand.do_update(self, line)
 
 
 if __name__ == '__main__':
