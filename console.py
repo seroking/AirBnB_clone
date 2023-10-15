@@ -12,6 +12,7 @@ from models.city import City
 from models.amenity import Amenity
 from models.review import Review
 
+
 class HBNBCommand(cmd.Cmd):
     """
     Implements the class HBNBCommand.
@@ -22,13 +23,12 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
     cls_models = ["City",
-                  "BaseModel",  
-                    "User",
-                    "Place",
-                    "State",
-                    "Amenity",
-                    "Review"
-                    ]
+                  "BaseModel",
+                  "User",
+                  "Place",
+                  "State",
+                  "Amenity",
+                  "Review"]
 
     def do_quit(self, args):
         """ Quit command to exit. """
@@ -45,20 +45,20 @@ class HBNBCommand(cmd.Cmd):
     def do_create(self, arg):
         """ create a new instance of the class BaseModel """
         if arg == "":
-            print ("** class name missing **")
+            print("** class name missing **")
         else:
             try:
                 new_instance = eval(arg)()
                 new_instance.save()
-                print (new_instance.id)
+                print(new_instance.id)
             except Exception:
-                print ("** class doesn't exist **")
+                print("** class doesn't exist **")
 
     def do_show(self, arg):
         """ show the string representaion of an instance based on ID """
         args = arg.split()
         if arg == "":
-            print ("** class name missing **")
+            print("** class name missing **")
         else:
             if len(args) < 2:
                 print("** instance id missing **")
@@ -76,7 +76,7 @@ class HBNBCommand(cmd.Cmd):
         """Destroy an object"""
         args = re.split(r'\s+', arg)
         if arg == "":
-            print ("** class name missing **")
+            print("** class name missing **")
         else:
             if len(args) < 2:
                 print("** instance id missing **")
@@ -84,7 +84,7 @@ class HBNBCommand(cmd.Cmd):
                 if args[0] in HBNBCommand.cls_models:
                     key = str(args[0] + '.' + args[1])
                     if key in storage.all():
-                        del(storage.all()[key])
+                        del (storage.all()[key])
                         storage.save()
                     else:
                         print("** no instance found **")
@@ -98,8 +98,8 @@ class HBNBCommand(cmd.Cmd):
             objs = []
             if arg in HBNBCommand.cls_models:
                 for key, obj in storage.all().items():
-                        if obj.__class__.__name__ == arg:
-                            objs.append(str(obj))
+                    if obj.__class__.__name__ == arg:
+                        objs.append(str(obj))
                 print(objs)
             else:
                 print("** class doesn't exist **")
@@ -129,5 +129,7 @@ class HBNBCommand(cmd.Cmd):
             else:
                 setattr(storage.all()[new_str], args[2], args[3])
                 storage.save()
+
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
