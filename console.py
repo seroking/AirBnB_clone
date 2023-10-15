@@ -134,6 +134,14 @@ class HBNBCommand(cmd.Cmd):
                 setattr(storage.all()[new_str], args[2], args[3])
                 storage.save()
 
+    def count(self, arg):
+        count  = 0
+        if arg in HBNBCommand.cls_models:
+            for key, obj in storage.all().items():
+                if obj.__class__.__name__ == arg:
+                    count = count + 1
+            print(count)
+
     def _precmd(self, line):
         words = line.split('.')
         if len(words) == 2:
@@ -145,6 +153,8 @@ class HBNBCommand(cmd.Cmd):
             if (command) == "all":
                 return HBNBCommand.do_all(self, the_class)
 
+            if command == "count":
+                return HBNBCommand.count(self, the_class)
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
