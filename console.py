@@ -30,6 +30,10 @@ class HBNBCommand(cmd.Cmd):
                   "Amenity",
                   "Review"]
 
+    def default(self, line):
+        """Catch commands if nothing else matches then."""
+        self._precmd(line)
+
     def do_quit(self, args):
         """ Quit command to exit. """
         return True
@@ -129,6 +133,17 @@ class HBNBCommand(cmd.Cmd):
             else:
                 setattr(storage.all()[new_str], args[2], args[3])
                 storage.save()
+
+    def _precmd(self, line):
+        words = line.split('.')
+        if len(words) == 2:
+
+            the_class = words[0]
+            cmd_and_par = words[1].split('(', 1)
+            command = cmd_and_par[0]
+
+            if (command) == "all":
+                return HBNBCommand.do_all(self, the_class)
 
 
 if __name__ == '__main__':
