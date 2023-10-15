@@ -74,5 +74,56 @@
         "updated_at": "2023-10-15T13:39:11.942201",
         "text": "5 Star rating",
         "__class__": "Review"
+    },
+    "BaseModel.8a12fe27-6626-4dec-ad54-8d19d4d2aad6": {
+        "id": "8a12fe27-6626-4dec-ad54-8d19d4d2aad6",
+        "created_at": "2023-10-15T15:55:02.988038",
+        "updated_at": "2023-10-15T15:55:02.988110",
+        "name": "My_First_Model",
+        "my_number": 89,
+        "__class__": "BaseModel"
+    },
+    "User.0751973e-314d-49fb-990e-0eb981551b24": {
+        "id": "0751973e-314d-49fb-990e-0eb981551b24",
+        "created_at": "2023-10-15T15:55:02.988512",
+        "updated_at": "2023-10-15T15:55:02.988518",
+        "first_name": "Minii",
+        "last_name": "Homlnad",
+        "__class__": "User"
+    },
+    "State.4fdde320-a8d7-479d-88f8-9adca9bbf8b0": {
+        "id": "4fdde320-a8d7-479d-88f8-9adca9bbf8b0",
+        "created_at": "2023-10-15T15:55:02.988944",
+        "updated_at": "2023-10-15T15:55:02.988948",
+        "name": "sakia elhemra",
+        "__class__": "State"
+    },
+    "Place.8e1cb78f-49f7-4344-b941-4923255dabc1": {
+        "id": "8e1cb78f-49f7-4344-b941-4923255dabc1",
+        "created_at": "2023-10-15T15:55:02.989341",
+        "updated_at": "2023-10-15T15:55:02.989344",
+        "name": "Gym",
+        "__class__": "Place"
+    },
+    "City.f87ea3f2-a28b-4845-bafb-e3f7d2994d2f": {
+        "id": "f87ea3f2-a28b-4845-bafb-e3f7d2994d2f",
+        "created_at": "2023-10-15T15:55:02.989708",
+        "updated_at": "2023-10-15T15:55:02.989712",
+        "name": "Rabat",
+        "__class__": "City"
+    },
+    "Amenity.1bdc0426-26d1-461d-b226-2d53eeca34ca": {
+        "id": "1bdc0426-26d1-461d-b226-2d53eeca34ca",
+        "created_at": "2023-10-15T15:55:02.990070",
+        "updated_at": "2023-10-15T15:55:02.990073",
+        "name": "nothing",
+        "__class__": "Amenity"
+    },
+    "Review.baf81185-8334-4d04-8f73-431562c97140": {
+        "id": "baf81185-8334-4d04-8f73-431562c97140",
+        "created_at": "2023-10-15T15:55:02.990434",
+        "updated_at": "2023-10-15T15:55:02.990437",
+        "text": "5 Star rating",
+        "__class__": "Review"
     }
 }
