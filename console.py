@@ -30,10 +30,6 @@ class HBNBCommand(cmd.Cmd):
                   "Amenity",
                   "Review"]
 
-    def default(self, line):
-        """Catch commands if nothing else matches then."""
-        self._precmd(line)
-
     def do_quit(self, args):
         """ Quit command to exit. """
         return True
@@ -121,11 +117,8 @@ class HBNBCommand(cmd.Cmd):
             print("** instance id missing **")
             return
         else:
-
-            obj_id = "{}.{}".format(args[0], args[1])
-            atr = args[2]
-            val = args[3]
-            if obj_id not in storage.all().keys():
+            new_str = "{}.{}".format(args[0], args[1])
+            if new_str not in storage.all().keys():
                 print("** no instance found **")
             elif len(args) < 3:
                 print("** attribute name missing **")
@@ -134,57 +127,9 @@ class HBNBCommand(cmd.Cmd):
                 print("** value missing **")
                 return
             else:
-                setattr(storage.all()[obj_id], atr, val)
+                setattr(storage.all()[new_str], args[2], args[3])
                 storage.save()
 
-    def count(self, arg):
-        count  = 0
-        if arg in HBNBCommand.cls_models:
-            for key, obj in storage.all().items():
-                if obj.__class__.__name__ == arg:
-                    count = count + 1
-            print(count)
 
-    def _precmd(self, line):
-        words = line.split('.')
-        if len(words) == 2:
-
-            the_class = words[0]
-            cmd_and_par = words[1].split('(', 1)
-            command = cmd_and_par[0]
-
-            if (command) == "all":
-                return HBNBCommand.do_all(self, the_class)
-
-            if command == "count":
-                return HBNBCommand.count(self, the_class)
-
-            if command == "show":
-                the_id = (cmd_and_par[1][:-1])[1:-1]
-                line = "{} {}".format(the_class, the_id)
-                return HBNBCommand.do_show(self, line)
-
-            if command == "destroy":
-                the_id = (cmd_and_par[1][:-1])[1:-1]
-                line = "{} {}".format(the_class, the_id)
-                return HBNBCommand.do_destroy(self, line)
-"""
-            if command == "update":
-                print(cmd_and_par[1])
-                id_atr_val = cmd_and_par[1].split(", ")
-
-                the_id = (id_atr_val[0])[1:-1]
-                print(the_id)
-                the_atr = (id_atr_val[1])[1:-1]
-                print(the_atr)
-                the_val = (id_atr_val[2])[1:-2]
-                print(the_val)
-
-                line = "{} {} {} {}".format(the_class, the_id, the_atr, the_atr)
-                
-                print(line)
-                return HBNBCommand.do_update(self, line)"""
-
-                
 if __name__ == '__main__':
     HBNBCommand().cmdloop()

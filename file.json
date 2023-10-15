@@ -39,7 +39,7 @@
         "last_name": "Homlnad",
         "name": "97",
         "hola": "32",
-        "email": "aibnb@mail.com",
+        "email": "\"aibnb@mail.com\"",
         "__class__": "User"
     },
     "State.292be8d1-ec58-4b10-abd9-23b7f5fb0e96": {
