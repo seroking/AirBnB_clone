@@ -131,7 +131,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** value missing **")
                 return
             else:
-                setattr(storage.all()[obj], args[2], args[3])
+                setattr(storage.all()[obj], args[2], eval(args[3]))
                 storage.save()
 
     def _precmd(self, line):
