@@ -1,94 +1,4 @@
 {
-    "Amenity.36971d2b-8ca2-488d-9875-a56ba8dd5a10": {
-        "id": "36971d2b-8ca2-488d-9875-a56ba8dd5a10",
-        "created_at": "2023-10-15T12:14:48.709025",
-        "updated_at": "2023-10-15T12:14:48.709029",
-        "__class__": "Amenity"
-    },
-    "Amenity.eb5df896-e426-4870-b8f9-2650ba82e34e": {
-        "id": "eb5df896-e426-4870-b8f9-2650ba82e34e",
-        "created_at": "2023-10-15T12:14:48.709094",
-        "updated_at": "2023-10-15T12:14:48.709095",
-        "__class__": "Amenity"
-    },
-    "Amenity.0999b980-7416-4392-996d-0ccecadcff3d": {
-        "id": "0999b980-7416-4392-996d-0ccecadcff3d",
-        "created_at": "2023-10-15T12:14:48.709138",
-        "updated_at": "2023-10-15T12:14:48.709139",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.0144a826-52e1-4e94-8be8-bc29dbd690cc": {
-        "id": "0144a826-52e1-4e94-8be8-bc29dbd690cc",
-        "created_at": "2023-10-15T12:14:48.709180",
-        "updated_at": "2023-10-15T12:14:48.709181",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.4296db31-e29f-49a8-b559-a4c2bb2dad09": {
-        "id": "4296db31-e29f-49a8-b559-a4c2bb2dad09",
-        "created_at": "2023-10-15T12:14:48.709251",
-        "updated_at": "2023-10-15T12:14:48.709252",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.54f84163-83c5-4aee-a6e2-b6c8726dc5b4": {
-        "id": "54f84163-83c5-4aee-a6e2-b6c8726dc5b4",
-        "created_at": "2023-10-15T12:14:48.709331",
-        "updated_at": "2023-10-15T12:14:48.709332",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.6daa1dcc-426d-4945-ad32-c0307a2fc0ba": {
-        "id": "6daa1dcc-426d-4945-ad32-c0307a2fc0ba",
-        "created_at": "2023-10-15T12:14:48.709388",
-        "updated_at": "2023-10-15T12:14:48.709389",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.587cc44a-0fb2-46c4-84c2-ad908bfcdb94": {
-        "id": "587cc44a-0fb2-46c4-84c2-ad908bfcdb94",
-        "created_at": "2023-10-15T12:14:48.710532",
-        "updated_at": "2023-10-15T12:14:48.710535",
-        "__class__": "BaseModel"
-    },
-    "Amenity.56fc7a45-e89f-46f1-9eff-2d7b5bad23f7": {
-        "id": "56fc7a45-e89f-46f1-9eff-2d7b5bad23f7",
-        "created_at": "2023-10-15T12:14:49.956898",
-        "updated_at": "2023-10-15T12:14:49.956900",
-        "__class__": "Amenity"
-    },
-    "Amenity.a45543dc-6a2f-4ca0-84c6-59e2a4039564": {
-        "id": "a45543dc-6a2f-4ca0-84c6-59e2a4039564",
-        "created_at": "2023-10-15T12:14:49.957030",
-        "updated_at": "2023-10-15T12:14:49.957031",
-        "__class__": "Amenity"
-    },
-    "Amenity.e907641e-10f3-4846-b632-e1a38d5a9071": {
-        "id": "e907641e-10f3-4846-b632-e1a38d5a9071",
-        "created_at": "2023-10-15T12:14:49.957077",
-        "updated_at": "2023-10-15T12:14:49.957077",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.bf994b88-6789-42b0-9c57-7996059e9217": {
-        "id": "bf994b88-6789-42b0-9c57-7996059e9217",
-        "created_at": "2023-10-15T12:14:49.957134",
-        "updated_at": "2023-10-15T12:14:49.957135",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.0853e943-04f6-4c74-8d04-47d92b68b1f0": {
-        "id": "0853e943-04f6-4c74-8d04-47d92b68b1f0",
-        "created_at": "2023-10-15T12:14:49.957174",
-        "updated_at": "2023-10-15T12:14:49.957174",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.0542cb85-483c-4dd9-9774-d569b6f6ed62": {
-        "id": "0542cb85-483c-4dd9-9774-d569b6f6ed62",
-        "created_at": "2023-10-15T12:14:49.957218",
-        "updated_at": "2023-10-15T12:14:49.957218",
-        "__class__": "BaseModel"
-    },
     "BaseModel.bdde8b4c-11b6-4b0c-ae6f-6440635d0f47": {
         "id": "bdde8b4c-11b6-4b0c-ae6f-6440635d0f47",
         "created_at": "2023-10-15T12:14:49.957242",
@@ -113,196 +23,56 @@
         "updated_at": "2023-10-15T12:14:51.501348",
         "__class__": "Amenity"
     },
-    "Amenity.a8dd07ef-403d-4616-86e7-f9b6949d7053": {
-        "id": "a8dd07ef-403d-4616-86e7-f9b6949d7053",
-        "created_at": "2023-10-15T12:14:51.501397",
-        "updated_at": "2023-10-15T12:14:51.501398",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.b26eb01b-f940-415e-bb54-6388c6a5093a": {
-        "id": "b26eb01b-f940-415e-bb54-6388c6a5093a",
-        "created_at": "2023-10-15T12:14:51.501444",
-        "updated_at": "2023-10-15T12:14:51.501445",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.eac65fe4-772b-4c88-b958-4c85103da426": {
-        "id": "eac65fe4-772b-4c88-b958-4c85103da426",
-        "created_at": "2023-10-15T12:14:51.501509",
-        "updated_at": "2023-10-15T12:14:51.501510",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.c9a7b137-7766-4de0-884c-a277993e407a": {
-        "id": "c9a7b137-7766-4de0-884c-a277993e407a",
-        "created_at": "2023-10-15T12:14:51.501588",
-        "updated_at": "2023-10-15T12:14:51.501594",
+    "BaseModel.a78c1e7a-a89e-45b6-a651-bdfbbddb9c50": {
+        "id": "a78c1e7a-a89e-45b6-a651-bdfbbddb9c50",
+        "created_at": "2023-10-15T13:39:11.940210",
+        "updated_at": "2023-10-15T13:39:11.940215",
+        "name": "My_First_Model",
+        "my_number": 89,
         "__class__": "BaseModel"
     },
-    "BaseModel.fc4c7c9a-703a-42ec-8cf5-ba97414aa764": {
-        "id": "fc4c7c9a-703a-42ec-8cf5-ba97414aa764",
-        "created_at": "2023-10-15T12:14:51.501662",
-        "updated_at": "2023-10-15T12:14:51.501663",
-        "__class__": "BaseModel"
+    "User.c5e5dedd-32a7-436c-94db-96b43890ed7c": {
+        "id": "c5e5dedd-32a7-436c-94db-96b43890ed7c",
+        "created_at": "2023-10-15T13:39:11.940413",
+        "updated_at": "2023-10-15T13:53:38.695510",
+        "first_name": "Minii",
+        "last_name": "Homlnad",
+        "name": "97",
+        "__class__": "User"
     },
-    "BaseModel.e2c430dc-4dc2-4cc4-895c-aa869d0cfd7f": {
-        "id": "e2c430dc-4dc2-4cc4-895c-aa869d0cfd7f",
-        "created_at": "2023-10-15T12:14:51.501812",
-        "updated_at": "2023-10-15T12:14:51.501815",
-        "__class__": "BaseModel"
+    "State.292be8d1-ec58-4b10-abd9-23b7f5fb0e96": {
+        "id": "292be8d1-ec58-4b10-abd9-23b7f5fb0e96",
+        "created_at": "2023-10-15T13:39:11.941029",
+        "updated_at": "2023-10-15T13:39:11.941033",
+        "name": "sakia elhemra",
+        "__class__": "State"
     },
-    "Amenity.44372a91-278d-4bfd-afad-276e50136e37": {
-        "id": "44372a91-278d-4bfd-afad-276e50136e37",
-        "created_at": "2023-10-15T12:21:04.802944",
-        "updated_at": "2023-10-15T12:21:04.802946",
+    "Place.521302be-2322-4873-ad66-b2b7366737ae": {
+        "id": "521302be-2322-4873-ad66-b2b7366737ae",
+        "created_at": "2023-10-15T13:39:11.941400",
+        "updated_at": "2023-10-15T13:39:11.941404",
+        "name": "Gym",
+        "__class__": "Place"
+    },
+    "City.6c41c1a2-1959-4a97-8f4f-822bc129aecd": {
+        "id": "6c41c1a2-1959-4a97-8f4f-822bc129aecd",
+        "created_at": "2023-10-15T13:39:11.941673",
+        "updated_at": "2023-10-15T13:39:11.941677",
+        "name": "Rabat",
+        "__class__": "City"
+    },
+    "Amenity.064d60f6-34f7-4913-ae5a-6baba8a8d941": {
+        "id": "064d60f6-34f7-4913-ae5a-6baba8a8d941",
+        "created_at": "2023-10-15T13:39:11.941930",
+        "updated_at": "2023-10-15T13:39:11.941933",
+        "name": "nothing",
         "__class__": "Amenity"
     },
-    "Amenity.0819da91-2997-4d4e-b08b-87206109cfd8": {
-        "id": "0819da91-2997-4d4e-b08b-87206109cfd8",
-        "created_at": "2023-10-15T12:21:04.803012",
-        "updated_at": "2023-10-15T12:21:04.803012",
-        "__class__": "Amenity"
-    },
-    "Amenity.b95c0f7a-ea03-4399-9755-e8da82e6656a": {
-        "id": "b95c0f7a-ea03-4399-9755-e8da82e6656a",
-        "created_at": "2023-10-15T12:21:04.803056",
-        "updated_at": "2023-10-15T12:21:04.803057",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.f5c735ed-301b-4dff-a3f7-02bec1d81e19": {
-        "id": "f5c735ed-301b-4dff-a3f7-02bec1d81e19",
-        "created_at": "2023-10-15T12:21:04.803122",
-        "updated_at": "2023-10-15T12:21:04.803123",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.d4c6b395-9f58-47f7-b7cd-02d8acbc11de": {
-        "id": "d4c6b395-9f58-47f7-b7cd-02d8acbc11de",
-        "created_at": "2023-10-15T12:21:04.803198",
-        "updated_at": "2023-10-15T12:21:04.803199",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.d6d0628b-388e-4151-9f45-1ae1c5982a5d": {
-        "id": "d6d0628b-388e-4151-9f45-1ae1c5982a5d",
-        "created_at": "2023-10-15T12:21:04.803283",
-        "updated_at": "2023-10-15T12:21:04.803284",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.9c5392c4-024d-4c94-bb1a-a6e14b70ba43": {
-        "id": "9c5392c4-024d-4c94-bb1a-a6e14b70ba43",
-        "created_at": "2023-10-15T12:21:04.803327",
-        "updated_at": "2023-10-15T12:21:04.803328",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.5f918b01-5a74-4b18-903d-ab36db749436": {
-        "id": "5f918b01-5a74-4b18-903d-ab36db749436",
-        "created_at": "2023-10-15T12:21:04.803490",
-        "updated_at": "2023-10-15T12:21:04.803493",
-        "__class__": "BaseModel"
-    },
-    "Amenity.4ee8252e-79b1-4d96-a39a-40b02bba55b6": {
-        "id": "4ee8252e-79b1-4d96-a39a-40b02bba55b6",
-        "created_at": "2023-10-15T12:22:12.220668",
-        "updated_at": "2023-10-15T12:22:12.220671",
-        "__class__": "Amenity"
-    },
-    "Amenity.27176b37-bd98-46b5-8b0e-62a88a62ab09": {
-        "id": "27176b37-bd98-46b5-8b0e-62a88a62ab09",
-        "created_at": "2023-10-15T12:22:12.220740",
-        "updated_at": "2023-10-15T12:22:12.220741",
-        "__class__": "Amenity"
-    },
-    "Amenity.1b6de65e-8654-4c60-9627-94c4353895b1": {
-        "id": "1b6de65e-8654-4c60-9627-94c4353895b1",
-        "created_at": "2023-10-15T12:22:12.220782",
-        "updated_at": "2023-10-15T12:22:12.220783",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.23567d0d-9966-4b6c-bc0b-f4def1c7c1fe": {
-        "id": "23567d0d-9966-4b6c-bc0b-f4def1c7c1fe",
-        "created_at": "2023-10-15T12:22:12.220822",
-        "updated_at": "2023-10-15T12:22:12.220823",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.e96aa328-ab7d-4704-853f-4e1d6366eb96": {
-        "id": "e96aa328-ab7d-4704-853f-4e1d6366eb96",
-        "created_at": "2023-10-15T12:22:12.220897",
-        "updated_at": "2023-10-15T12:22:12.220898",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.e2217b4b-6d96-47d0-ae73-056294f07a26": {
-        "id": "e2217b4b-6d96-47d0-ae73-056294f07a26",
-        "created_at": "2023-10-15T12:22:12.220974",
-        "updated_at": "2023-10-15T12:22:12.220975",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.ecb2cdcf-9ef3-42a1-8881-2628d5e539c9": {
-        "id": "ecb2cdcf-9ef3-42a1-8881-2628d5e539c9",
-        "created_at": "2023-10-15T12:22:12.221018",
-        "updated_at": "2023-10-15T12:22:12.221018",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.6e9c0021-d5f4-40fb-98ad-c96e7ec1352a": {
-        "id": "6e9c0021-d5f4-40fb-98ad-c96e7ec1352a",
-        "created_at": "2023-10-15T12:22:12.221156",
-        "updated_at": "2023-10-15T12:22:12.221159",
-        "__class__": "BaseModel"
-    },
-    "Amenity.f46840d3-fb33-4c4d-9a89-320723526c6d": {
-        "id": "f46840d3-fb33-4c4d-9a89-320723526c6d",
-        "created_at": "2023-10-15T12:22:13.188351",
-        "updated_at": "2023-10-15T12:22:13.188354",
-        "__class__": "Amenity"
-    },
-    "Amenity.9b837a1c-d350-44ac-a5b8-0514ef6a886a": {
-        "id": "9b837a1c-d350-44ac-a5b8-0514ef6a886a",
-        "created_at": "2023-10-15T12:22:13.188419",
-        "updated_at": "2023-10-15T12:22:13.188420",
-        "__class__": "Amenity"
-    },
-    "Amenity.5311d588-37d0-4c44-a5a0-2828e7e561cf": {
-        "id": "5311d588-37d0-4c44-a5a0-2828e7e561cf",
-        "created_at": "2023-10-15T12:22:13.188462",
-        "updated_at": "2023-10-15T12:22:13.188463",
-        "name": "hotel",
-        "__class__": "Amenity"
-    },
-    "Amenity.264f4185-496e-44d6-8003-dc484e42fd35": {
-        "id": "264f4185-496e-44d6-8003-dc484e42fd35",
-        "created_at": "2023-10-15T12:22:13.188503",
-        "updated_at": "2023-10-15T12:22:13.188504",
-        "name": "taxi",
-        "__class__": "Amenity"
-    },
-    "Amenity.de456951-5c44-4e41-a5a2-4089a64f280f": {
-        "id": "de456951-5c44-4e41-a5a2-4089a64f280f",
-        "created_at": "2023-10-15T12:22:13.188557",
-        "updated_at": "2023-10-15T12:22:13.188558",
-        "name": "hodi",
-        "__class__": "Amenity"
-    },
-    "BaseModel.e7b4b902-26c6-4d72-bd11-d68bc88e3491": {
-        "id": "e7b4b902-26c6-4d72-bd11-d68bc88e3491",
-        "created_at": "2023-10-15T12:22:13.188618",
-        "updated_at": "2023-10-15T12:22:13.188619",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.a377592f-49ce-41fd-b2d0-79e5a8edb21a": {
-        "id": "a377592f-49ce-41fd-b2d0-79e5a8edb21a",
-        "created_at": "2023-10-15T12:22:13.188661",
-        "updated_at": "2023-10-15T12:22:13.188661",
-        "__class__": "BaseModel"
-    },
-    "BaseModel.f06d7fce-2ffa-42fc-81d4-e8e0de43b815": {
-        "id": "f06d7fce-2ffa-42fc-81d4-e8e0de43b815",
-        "created_at": "2023-10-15T12:22:13.188814",
-        "updated_at": "2023-10-15T12:22:13.188816",
-        "__class__": "BaseModel"
+    "Review.ce6a799f-0189-4e40-80ce-b64dcfc78115": {
+        "id": "ce6a799f-0189-4e40-80ce-b64dcfc78115",
+        "created_at": "2023-10-15T13:39:11.942197",
+        "updated_at": "2023-10-15T13:39:11.942201",
+        "text": "5 Star rating",
+        "__class__": "Review"
     }
 }

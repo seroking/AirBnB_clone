@@ -120,7 +120,7 @@ class HBNBCommand(cmd.Cmd):
             key = "{}.{}".format(args[0], args[1])
             if key in storage.all():
                 obj = storage.all()[key]
-                setattr(obj, args[2], eval(args[3]))
+                setattr(obj, args[2], (args[3]))
                 obj.save()
             else:
                 print("** no instance found **")
