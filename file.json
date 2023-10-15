@@ -1,0 +1,155 @@
+{
+    "Amenity.36971d2b-8ca2-488d-9875-a56ba8dd5a10": {
+        "id": "36971d2b-8ca2-488d-9875-a56ba8dd5a10",
+        "created_at": "2023-10-15T12:14:48.709025",
+        "updated_at": "2023-10-15T12:14:48.709029",
+        "__class__": "Amenity"
+    },
+    "Amenity.eb5df896-e426-4870-b8f9-2650ba82e34e": {
+        "id": "eb5df896-e426-4870-b8f9-2650ba82e34e",
+        "created_at": "2023-10-15T12:14:48.709094",
+        "updated_at": "2023-10-15T12:14:48.709095",
+        "__class__": "Amenity"
+    },
+    "Amenity.0999b980-7416-4392-996d-0ccecadcff3d": {
+        "id": "0999b980-7416-4392-996d-0ccecadcff3d",
+        "created_at": "2023-10-15T12:14:48.709138",
+        "updated_at": "2023-10-15T12:14:48.709139",
+        "name": "hotel",
+        "__class__": "Amenity"
+    },
+    "Amenity.0144a826-52e1-4e94-8be8-bc29dbd690cc": {
+        "id": "0144a826-52e1-4e94-8be8-bc29dbd690cc",
+        "created_at": "2023-10-15T12:14:48.709180",
+        "updated_at": "2023-10-15T12:14:48.709181",
+        "name": "taxi",
+        "__class__": "Amenity"
+    },
+    "Amenity.4296db31-e29f-49a8-b559-a4c2bb2dad09": {
+        "id": "4296db31-e29f-49a8-b559-a4c2bb2dad09",
+        "created_at": "2023-10-15T12:14:48.709251",
+        "updated_at": "2023-10-15T12:14:48.709252",
+        "name": "hodi",
+        "__class__": "Amenity"
+    },
+    "BaseModel.54f84163-83c5-4aee-a6e2-b6c8726dc5b4": {
+        "id": "54f84163-83c5-4aee-a6e2-b6c8726dc5b4",
+        "created_at": "2023-10-15T12:14:48.709331",
+        "updated_at": "2023-10-15T12:14:48.709332",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.6daa1dcc-426d-4945-ad32-c0307a2fc0ba": {
+        "id": "6daa1dcc-426d-4945-ad32-c0307a2fc0ba",
+        "created_at": "2023-10-15T12:14:48.709388",
+        "updated_at": "2023-10-15T12:14:48.709389",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.587cc44a-0fb2-46c4-84c2-ad908bfcdb94": {
+        "id": "587cc44a-0fb2-46c4-84c2-ad908bfcdb94",
+        "created_at": "2023-10-15T12:14:48.710532",
+        "updated_at": "2023-10-15T12:14:48.710535",
+        "__class__": "BaseModel"
+    },
+    "Amenity.56fc7a45-e89f-46f1-9eff-2d7b5bad23f7": {
+        "id": "56fc7a45-e89f-46f1-9eff-2d7b5bad23f7",
+        "created_at": "2023-10-15T12:14:49.956898",
+        "updated_at": "2023-10-15T12:14:49.956900",
+        "__class__": "Amenity"
+    },
+    "Amenity.a45543dc-6a2f-4ca0-84c6-59e2a4039564": {
+        "id": "a45543dc-6a2f-4ca0-84c6-59e2a4039564",
+        "created_at": "2023-10-15T12:14:49.957030",
+        "updated_at": "2023-10-15T12:14:49.957031",
+        "__class__": "Amenity"
+    },
+    "Amenity.e907641e-10f3-4846-b632-e1a38d5a9071": {
+        "id": "e907641e-10f3-4846-b632-e1a38d5a9071",
+        "created_at": "2023-10-15T12:14:49.957077",
+        "updated_at": "2023-10-15T12:14:49.957077",
+        "name": "hotel",
+        "__class__": "Amenity"
+    },
+    "Amenity.bf994b88-6789-42b0-9c57-7996059e9217": {
+        "id": "bf994b88-6789-42b0-9c57-7996059e9217",
+        "created_at": "2023-10-15T12:14:49.957134",
+        "updated_at": "2023-10-15T12:14:49.957135",
+        "name": "taxi",
+        "__class__": "Amenity"
+    },
+    "Amenity.0853e943-04f6-4c74-8d04-47d92b68b1f0": {
+        "id": "0853e943-04f6-4c74-8d04-47d92b68b1f0",
+        "created_at": "2023-10-15T12:14:49.957174",
+        "updated_at": "2023-10-15T12:14:49.957174",
+        "name": "hodi",
+        "__class__": "Amenity"
+    },
+    "BaseModel.0542cb85-483c-4dd9-9774-d569b6f6ed62": {
+        "id": "0542cb85-483c-4dd9-9774-d569b6f6ed62",
+        "created_at": "2023-10-15T12:14:49.957218",
+        "updated_at": "2023-10-15T12:14:49.957218",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.bdde8b4c-11b6-4b0c-ae6f-6440635d0f47": {
+        "id": "bdde8b4c-11b6-4b0c-ae6f-6440635d0f47",
+        "created_at": "2023-10-15T12:14:49.957242",
+        "updated_at": "2023-10-15T12:14:49.957243",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.9e3e8229-bfd6-47f0-86fb-1c7c210d6c57": {
+        "id": "9e3e8229-bfd6-47f0-86fb-1c7c210d6c57",
+        "created_at": "2023-10-15T12:14:49.957390",
+        "updated_at": "2023-10-15T12:14:49.957393",
+        "__class__": "BaseModel"
+    },
+    "Amenity.7e06c74c-07d3-400e-add6-6df61d111404": {
+        "id": "7e06c74c-07d3-400e-add6-6df61d111404",
+        "created_at": "2023-10-15T12:14:51.501273",
+        "updated_at": "2023-10-15T12:14:51.501276",
+        "__class__": "Amenity"
+    },
+    "Amenity.e6e67367-836f-47eb-8cb5-c421f9aebb81": {
+        "id": "e6e67367-836f-47eb-8cb5-c421f9aebb81",
+        "created_at": "2023-10-15T12:14:51.501347",
+        "updated_at": "2023-10-15T12:14:51.501348",
+        "__class__": "Amenity"
+    },
+    "Amenity.a8dd07ef-403d-4616-86e7-f9b6949d7053": {
+        "id": "a8dd07ef-403d-4616-86e7-f9b6949d7053",
+        "created_at": "2023-10-15T12:14:51.501397",
+        "updated_at": "2023-10-15T12:14:51.501398",
+        "name": "hotel",
+        "__class__": "Amenity"
+    },
+    "Amenity.b26eb01b-f940-415e-bb54-6388c6a5093a": {
+        "id": "b26eb01b-f940-415e-bb54-6388c6a5093a",
+        "created_at": "2023-10-15T12:14:51.501444",
+        "updated_at": "2023-10-15T12:14:51.501445",
+        "name": "taxi",
+        "__class__": "Amenity"
+    },
+    "Amenity.eac65fe4-772b-4c88-b958-4c85103da426": {
+        "id": "eac65fe4-772b-4c88-b958-4c85103da426",
+        "created_at": "2023-10-15T12:14:51.501509",
+        "updated_at": "2023-10-15T12:14:51.501510",
+        "name": "hodi",
+        "__class__": "Amenity"
+    },
+    "BaseModel.c9a7b137-7766-4de0-884c-a277993e407a": {
+        "id": "c9a7b137-7766-4de0-884c-a277993e407a",
+        "created_at": "2023-10-15T12:14:51.501588",
+        "updated_at": "2023-10-15T12:14:51.501594",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.fc4c7c9a-703a-42ec-8cf5-ba97414aa764": {
+        "id": "fc4c7c9a-703a-42ec-8cf5-ba97414aa764",
+        "created_at": "2023-10-15T12:14:51.501662",
+        "updated_at": "2023-10-15T12:14:51.501663",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.e2c430dc-4dc2-4cc4-895c-aa869d0cfd7f": {
+        "id": "e2c430dc-4dc2-4cc4-895c-aa869d0cfd7f",
+        "created_at": "2023-10-15T12:14:51.501812",
+        "updated_at": "2023-10-15T12:14:51.501815",
+        "__class__": "BaseModel"
+    }
+}
