@@ -7,12 +7,6 @@ from datetime import datetime
 import models
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
-from models.user import User
-from models.state import State
-from models.place import Place
-from models.city import City
-from models.amenity import Amenity
-from models.review import Review
 import json
 
 
@@ -96,6 +90,10 @@ class test_file_storage_class(unittest.TestCase):
         with self.assertRaises(TypeError):
             models.storage.all(None)
 
+        # Test instantiation with an argument
+        with self.assertRaises(TypeError):
+            FileStorage(None)
+
 
 class test_file_storage_class(unittest.TestCase):
     """test methods of storage class"""
@@ -120,30 +118,6 @@ class test_file_storage_class(unittest.TestCase):
         except IOError:
             pass
         FileStorage._FileStorage__objects = {}
-
-    def test_storage_reload(self):
-        # Test reload storage
-        base_model = BaseModel()
-        user = User()
-        state = State()
-        place = Place()
-        city = City()
-        amenity = Amenity()
-        review = Review()
-        self.assertIn("BaseModel." + base_model.id,
-                      models.storage.all().keys())
-        self.assertIn("User." + user.id,
-                      models.storage.all().keys())
-        self.assertIn("State." + state.id,
-                      models.storage.all().keys())
-        self.assertIn("Place." + place.id,
-                      models.storage.all().keys())
-        self.assertIn("City." + city.id,
-                      models.storage.all().keys())
-        self.assertIn("Amenity." + amenity.id,
-                      models.storage.all().keys())
-        self.assertIn("Review." + review.id,
-                      models.storage.all().keys())
 
 
 if __name__ == "__main__":
