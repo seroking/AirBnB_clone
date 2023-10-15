@@ -134,7 +134,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** value missing **")
                 return
             else:
-                setattr(storage.all()[obj_id], atr, eval(val))
+                setattr(storage.all()[obj_id], atr, val)
                 storage.save()
 
     def count(self, arg):
