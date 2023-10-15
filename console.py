@@ -156,5 +156,10 @@ class HBNBCommand(cmd.Cmd):
             if command == "count":
                 return HBNBCommand.count(self, the_class)
 
+            if command == "show":
+                the_id = (cmd_and_par[1][:-1])[1:-1]
+                line = "{} {}".format(the_class, the_id)
+                return HBNBCommand.do_show(self, line)
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
