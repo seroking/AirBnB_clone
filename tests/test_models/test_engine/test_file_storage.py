@@ -13,6 +13,7 @@ from models.place import Place
 from models.city import City
 from models.amenity import Amenity
 from models.review import Review
+from models import storage
 import json
 
 
@@ -147,5 +148,24 @@ class test_file_storage_class(unittest.TestCase):
                       models.storage.all().keys())
         self.assertIn("Review." + review.id,
                       models.storage.all().keys())
+
+
+    def test_additional_cases(self):
+        mmodel = BaseModel()
+        mmodel.save()
+
+        self.assertEqual(hasattr(FileStorage, '_FileStorage__file_path'), True)
+        self.assertEqual(hasattr(FileStorage, '_FileStorage__objects'), True)     
+        # Verify if json exist
+        self.assertEqual(os.path.exists(storage._FileStorage__file_path), True)
+        self.assertEqual(storage.all(), storage._FileStorage__objects)
+        # Test Reload
+        dobj = storage.all()
+        FileStorage._FileStorage__objects = {}
+        self.assertNotEqual(dobj, FileStorage._FileStorage__objects)
+        storage.reload()        
+        for key, value in storage.all().items():
+            self.assertEqual(dobj[key].to_dict(), value.to_dict())
+
 if __name__ == "__main__":
     unittest.main()
