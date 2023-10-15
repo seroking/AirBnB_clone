@@ -25,8 +25,8 @@ class HBNBCommand(cmd.Cmd):
         """ Quit command to exist the program """
         return True
 
-    def do_EOF(self):
-        """ EOF command to exist the program"""
+    def do_EOF(self, arg):
+        """ EOF signal to exit the program."""
         return True
 
     def emptyline(self):
