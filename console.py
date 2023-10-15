@@ -121,8 +121,8 @@ class HBNBCommand(cmd.Cmd):
             print("** instance id missing **")
             return
         else:
-            new_str = "{}.{}".format(args[0], args[1])
-            if new_str not in storage.all().keys():
+            new_atr = "{}.{}".format(args[0], args[1])
+            if new_atr not in storage.all().keys():
                 print("** no instance found **")
             elif len(args) < 3:
                 print("** attribute name missing **")
@@ -131,7 +131,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** value missing **")
                 return
             else:
-                setattr(storage.all()[new_str], args[2], args[3])
+                setattr(storage.all()[new_atr], args[2], args[3])
                 storage.save()
 
     def count(self, arg):
@@ -160,6 +160,12 @@ class HBNBCommand(cmd.Cmd):
                 the_id = (cmd_and_par[1][:-1])[1:-1]
                 line = "{} {}".format(the_class, the_id)
                 return HBNBCommand.do_show(self, line)
+
+            if command == "destroy":
+                the_id = (cmd_and_par[1][:-1])[1:-1]
+                line = "{} {}".format(the_class, the_id)
+                return HBNBCommand.do_destroy(self, line)
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
