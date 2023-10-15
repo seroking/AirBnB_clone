@@ -30,6 +30,10 @@ class HBNBCommand(cmd.Cmd):
                   "Amenity",
                   "Review"]
 
+    def default(self, line):
+        """Catch commands if nothing else matches then."""
+        self._precmd(line)
+
     def do_quit(self, args):
         """ Quit command to exit. """
         return True
