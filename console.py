@@ -159,11 +159,26 @@ class HBNBCommand(cmd.Cmd):
                 return HBNBCommand.do_destroy(self, line)
 
             if command == "update":
-                print(cmd_and_par[1])
-                id_atr_val = cmd_and_par[1].split(", ")
+                id_atr_val = cmd_and_par[1].split(", ", 1)
                 the_id = (id_atr_val[0])[1:-1]
-                the_atr = (id_atr_val[1])[1:-1]
-                the_val = (id_atr_val[2])[0:-1]
+
+                if id_atr_val[1][0] == "{":
+                    the_dic = eval(id_atr_val[1][0:-1])
+                    for key, value in the_dic.items():
+                        if type(value) == str:
+                            line = "{} {} {} '{}'".format(the_class,
+                                                          the_id, key,
+                                                          value)
+                        else:
+                            line = "{} {} {} {}".format(the_class,
+                                                        the_id, key,
+                                                        value)
+                        HBNBCommand.do_update(self, line)
+                    return
+
+                atr_val = id_atr_val[1].split(", ")
+                the_atr = atr_val[0][1:-1]
+                the_val = atr_val[1][0:-1]
                 line = "{} {} {} {}".format(the_class,
                                             the_id, the_atr,
                                             the_val)
