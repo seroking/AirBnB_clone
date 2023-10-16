@@ -99,7 +99,8 @@ class test_file_storage_class(unittest.TestCase):
 
         # Test instantiation with an argument
         with self.assertRaises(TypeError):
-            FileStorage(None)        
+            FileStorage(None)
+
 
 class test_file_storage_class(unittest.TestCase):
     """test methods of storage class"""
@@ -149,13 +150,12 @@ class test_file_storage_class(unittest.TestCase):
         self.assertIn("Review." + review.id,
                       models.storage.all().keys())
 
-
     def test_additional_cases(self):
         mmodel = BaseModel()
         mmodel.save()
 
         self.assertEqual(hasattr(FileStorage, '_FileStorage__file_path'), True)
-        self.assertEqual(hasattr(FileStorage, '_FileStorage__objects'), True)     
+        self.assertEqual(hasattr(FileStorage, '_FileStorage__objects'), True)
         # Verify if json exist
         self.assertEqual(os.path.exists(storage._FileStorage__file_path), True)
         self.assertEqual(storage.all(), storage._FileStorage__objects)
@@ -163,9 +163,10 @@ class test_file_storage_class(unittest.TestCase):
         dobj = storage.all()
         FileStorage._FileStorage__objects = {}
         self.assertNotEqual(dobj, FileStorage._FileStorage__objects)
-        storage.reload()        
+        storage.reload()
         for key, value in storage.all().items():
             self.assertEqual(dobj[key].to_dict(), value.to_dict())
+
 
 if __name__ == "__main__":
     unittest.main()
