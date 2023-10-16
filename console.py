@@ -151,7 +151,7 @@ class HBNBCommand(cmd.Cmd):
                 if the_class in HBNBCommand.cls_models:
                     for key, obj in storage.all().items():
                         if obj.__class__.__name__ == the_class:
-                            count = count + 1             
+                            count = count + 1
                     print(count)
 
             if command == "show":
