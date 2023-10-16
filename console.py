@@ -146,7 +146,12 @@ class HBNBCommand(cmd.Cmd):
                 return HBNBCommand.do_all(self, the_class)
 
             if command == "count":
-                return HBNBCommand.count(self, the_class)
+                count = 0
+                if the_class in HBNBCommand.cls_models:
+                    for key, obj in storage.all().items():
+                        if obj.__class__.__name__ == the_class:
+                            count = count + 1             
+                    print(count)
 
             if command == "show":
                 the_id = (cmd_and_par[1][:-1])[1:-1]
