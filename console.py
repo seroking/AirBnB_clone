@@ -135,6 +135,7 @@ class HBNBCommand(cmd.Cmd):
                 storage.save()
 
     def _precmd(self, line):
+        """to handl cmd.args"""
         words = line.split('.')
         if len(words) == 2:
 
